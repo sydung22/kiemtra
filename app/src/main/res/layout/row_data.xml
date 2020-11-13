@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/gridviewdata"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_margin="5dp"
+        android:background="#fff">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/dh1"/>
+
+        <TextView
+            android:id="@+id/iddongho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Đồng hồ TwentySeventeen W001Q"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/iddongho"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="30dp"
+                android:id="@+id/idgia"
+                android:text="450.000 ₫"
+                android:textSize="15dp"
+                android:textColor="@color/colorpr"
+                android:paddingLeft="65dp"/>
+
+            <ImageView
+                android:layout_below="@+id/idthaotac"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_morevert"/>
+
+        </LinearLayout>l
+    </RelativeLayout>
+
+</RelativeLayout>
